@@ -12,3 +12,28 @@
   font-size: 30px;
   text-align: center;
 }
+body {
+  background-color: antiquewhite
+}
+p {
+  color:black;
+  text-align: justify
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color:red;
+}
+img{
+  width:200px;
+  float: inherit;
+  border-style:groove;
+  border-width:4px;
+  border-radius:10px;
+}
+h2{
+  color: blue;
+}
+footer {
+    margin-top: 64px;
+}

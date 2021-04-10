@@ -31,32 +31,10 @@
   background-image:url("real_estate.jpg");
 }
 
-
-
 .footer {
   padding: 20px;
   background: gray 
   margin-bottom:0px;
-}
-/*Style for rent page*/
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 30px;
-  background-color: #2196F3;
-  padding: 50px;
-}
-
-.grid-container > div {
-  background-color: white;
-  border: 1px solid black;
-  text-align: left;
-  font-size: 20px;
-  font-family: arial
- img{ width:100px;
- height:100px; }
-
 }
 
 

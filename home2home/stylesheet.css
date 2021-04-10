@@ -1,7 +1,7 @@
 .header {
   padding: 20px; 
   text-align: center; 
-  background: green;
+  background: #1abc9c; /* green background */
   color: white; 
 }
 .header h1 {
@@ -39,20 +39,13 @@
   margin-bottom:0px;
 }
 /*Style for rent page*/
-/* Main content */
-.main {
-  flex: 100%; 
-  background-color: white; 
-  padding: 20px; 
-  text-align: center;
-  background-image:url("real_estate.jpg");
-}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 30px;
   background-color: #2196F3;
-  padding: 20px;
+  padding: 50px;
 }
 
 .grid-container > div {
@@ -61,8 +54,8 @@
   text-align: left;
   font-size: 20px;
   font-family: arial
- img{ width:200px;
- height:200px; }
+ img{ width:100px;
+ height:100px; }
 
 }
 

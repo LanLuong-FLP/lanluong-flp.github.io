@@ -30,6 +30,15 @@
   background-image:url("Real_estate.jpg");
 }
 
+/*Style for rent page*/
+.Masteri{
+	font-family: inherit;
+	text-align: left;
+}
+.Masteri img{
+	width="500";
+	height="600"
+}
 
 
 .footer {

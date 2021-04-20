@@ -28,6 +28,9 @@
   padding: 200px; 
   text-align: center;
   background-image:url("Real_estate.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .footer {

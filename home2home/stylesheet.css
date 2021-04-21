@@ -45,10 +45,10 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 400px 400px 400px;
   grid-gap: 20px;
   background-color: #2196F3;
-  padding: 30px;
+  padding: 20px;
   background-image:url("Real_estate.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;

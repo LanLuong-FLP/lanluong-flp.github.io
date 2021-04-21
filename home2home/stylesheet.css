@@ -46,13 +46,15 @@
 .grid-container {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-gap: 30px;
+  grid-gap: 20px;
   background-color: #2196F3;
   padding: 30px;
   background-image:url("Real_estate.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 .rent
@@ -60,10 +62,13 @@
   border: 1px solid black;
   text-align: left;
   font-size: 20px;
-  font-family: arial;}
+font-family: arial;
+  margin: 10px;
+}
 
   img{ width:400px;
   height:400px; }
+
 
 /*Style for sale page*/
 /* Main content */

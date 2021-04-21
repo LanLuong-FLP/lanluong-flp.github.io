@@ -71,6 +71,10 @@
 .flex-container {
   display: flex;
   flex-direction: column;
+  background-image:url("Real_estate.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .sale
 {background-color: white;

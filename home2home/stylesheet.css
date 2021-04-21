@@ -94,12 +94,11 @@ color: black;}
   align-items: center;
 }
 .sale
-{background-color: white;
+{background-color: # F5DEB3;
   width:80%;
    margin: 20px;
-  border: 1px solid black;
+  border: 2px solid black;
   line-height: 20px;
-  font-size: 20px;
 }
 
 
@@ -110,8 +109,9 @@ color: black;}
   }
   .sale p{
     font-family: Verdana;
-       font-size: 20px;
+       font-size: 18px;
   text-align: center-left;
+	  color: orange;
 }
 
 

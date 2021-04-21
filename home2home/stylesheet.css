@@ -67,7 +67,6 @@
 
 /*Style for sale page*/
 /* Main content */
-
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -75,16 +74,19 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 .sale
 {background-color: white;
-  width: 100%;
+  width:80%;
    margin: 10px;
   border: 1px solid black;
-  text-align: center;
+  text-align: center-left;
   line-height: 20px;
   font-size: 20px;
 }
+
 
   img{ 
   width:400px;

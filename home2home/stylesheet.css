@@ -1,17 +1,17 @@
 .header {
-  padding: 20px; 
+  padding: 10px; 
   text-align: center; 
   background: #1abc9c;
   color: white; 
 }
 .header h1 {
   font-size: 50px;
-  font-family:
+  font-family: arial;
 }
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; 
-  background-color: #333; /* Dark background color */
+  background-color: #696969;
 }
 /* Style the navigation bar links */
 .navbar a {
@@ -19,8 +19,9 @@
   display: block; 
   color: white; 
   text-align: center; 
-  padding: 14px 20px; 
+  padding: 14px; 
   text-decoration: none; 
+  font-family: arial;
 }
 /* Main content */
 .main {
@@ -31,24 +32,33 @@
   background-image:url("Real_estate.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  
+  background-size: cover; 
+}
+.main h1{
+	font-family: Verdana;
+	font-size: 40px;
+color: black;}
+.main p{
+	font-family: Verdana;
+	font-size: 20px;
+color: black;}
+	
+	
+.footer {
+  padding: 40px;
+  background: #696969; 
 }
 
-.footer {
-  padding: 20px;
-  background: gray; 
-  margin-bottom:1px;
-}
+
 /*Style for rent page*/
 /* Main content */
 
 .grid-container {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-gap: 20px;
+  grid-gap: 30px;
   background-color: #2196F3;
-  padding: 20px;
+  padding: 30px;
   background-image:url("Real_estate.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -60,15 +70,16 @@
 .rent
 {background-color: white;
   border: 1px solid black;
-  text-align: left;
-  font-size: 20px;
-font-family: arial;
-  margin: 10px;
 }
 
-  img{ width:300px;
-  height:300px; }
-
+  .rent img{ width:400px;
+  height:400px; }
+  
+  .rent p{
+	  font-family: Verdana;
+       font-size: 20px;
+	   text-align: left;
+  }
 
 /*Style for sale page*/
 /* Main content */
@@ -85,19 +96,24 @@ font-family: arial;
 .sale
 {background-color: white;
   width:80%;
-   margin: 10px;
+   margin: 20px;
   border: 1px solid black;
-  text-align: center-left;
   line-height: 20px;
   font-size: 20px;
 }
 
 
-  img{ 
-  width:400px;
-  height:400px;
+  .sale img{ 
+  width:350px;
+  height:350px;
   float:left
   }
+  .sale p{
+    font-family: Verdana;
+       font-size: 20px;
+  text-align: center-left;
+}
+
 
 
 

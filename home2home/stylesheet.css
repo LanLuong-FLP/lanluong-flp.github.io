@@ -113,7 +113,24 @@ color: black;}
   text-align: center-left;
 	  color: orange;
 }
-
-
+/*Style for contact page*/
+/* Main content */
+.contact_form{
+ box-sizing: border-box;
+ border: 1px solid #58257b;
+ padding: 12px 20px;
+ width:30%;
+}
+.contact_form h4{
+  text-align: center;
+}
+.form_control{
+  width:400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #58257b;
+  outline: none;
+}
 
 

@@ -147,14 +147,16 @@ footer {
 }
 .sale
 {background-color:#FFF8DC;
-  width:80%;
+  width:70%;
+  height:350px;
    margin: 20px;
   border: 2px solid black;
 }
 
- .sale figure{ 
-  height:350px;
+ .sale img{ 
   float:left;
+   height:98%;
+   width: 400px;
     border: 1px #cccccc solid;
     padding: 4px;
     margin: auto;

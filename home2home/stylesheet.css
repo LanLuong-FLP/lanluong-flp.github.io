@@ -1,60 +1,107 @@
 /* Style for homepage */
-.header {
+header {
   padding: 10px; 
   text-align: center; 
-  background: #1abc9c;
+  background: #FAFAD2;
 }
-.header h1 {
+header h1 {
   font-size: 50px;
   font-family: arial;
-  color: white;
+  color: #FF4500;
 }
 /* Style the top navigation bar */
-.navbar {
+nav {
   overflow: hidden; 
   background-color: #696969;
 }
 /* Style the navigation bar links */
-.navbar a {
+nav a {
   float: left; 
   display: block; 
   color: white; 
   text-align: center; 
   padding: 14px; 
-  text-decoration: none; 
+  text-decoration: none;
   font-family: Arial;
 }
-.navbar a:hover {
+nav a:hover {
   background-color: orange;
 }
 
 /* Main content */
-.main { 
-  padding: 200px; 
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+   float: left;
+  width: 30%;
+  height: 400px;
+  background: #ccc;
+  padding: 20px;
+  background-image:url("https://cdn.pixabay.com/photo/2017/11/16/16/29/real-estate-2955057_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+}
+main {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px;
   background-image:url("Real_estate.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  text-align: center;
 }
-.main h1{
-	font-family: Arial;
+main h1{
+  font-family: Arial;
 	font-size: 40px;
     color: black;
 }
-.main p{
+main p{
 	font-family: Arial;
 	font-size: 20px;
     color: black;
 }
-	
-	
-.footer {
-  padding: 40px;
-  background: #696969; 
+.search{
+ padding: 10px 20px;
+ width:100%;
+}
+.search h4{
+  font-family: Arial;
+       font-size: 18px;
+  text-align: left;
+  margin-top:20px;
+  padding:1px;
+  color: red;
+}
+.search input[type=text]{
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  font-family:Arial;
+  border: 1px solid #58257b;
+ 
 }
 
-
-/*Style for rent page*/
+.search input[type=submit]{
+  background-color: #D2691E;
+  font-weight: bold;
+}
+	
+footer {
+  padding: 20px;
+  background: #708090; }
+  
+  /*Style for rent page*/
 
 .grid-container {
   display: grid;
@@ -118,9 +165,11 @@
   .sale p{
     font-family: Arial;
        font-size: 18px;
-     text-align: center;
+     text-align: left;
      line-height: 20px;
 }
+
+
 /*Style for contact page*/
 .contact{
   display:grid;
@@ -172,24 +221,71 @@
   font-weight: bold;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+
+/*Style for project page*/
+.grid-project{
+  display:grid;
+  grid-template-columns: 80% 20%;
+  grid-gap: 10px;
+  background-color: white;
+  background-image:url("Real_estate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:20px;
 }
-@media only screen and (max-width: 600px){
-	
-	
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.main{
+  margin-left:30px;
+  margin-top:10px;
+  background-color:#FFDEAD;
+}
+
+ main{
+  font-family:arial;
+  font-size:16px;}
+h2{
+  color: blue;
+  text-align:center;
+}
+.aside{
+  background-color:#ADD8E6;
+  margin-top:10px;
+}
+
+
+
+/*FIRST BREAK POINT === mobile */
+@media only screen and (max-width : 600px) {
+
+    body {
+        background: rgb(99, 78, 99);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'nav nav nav nav nav nav'
+            'header header header header header header'
+            'main main main main main main'
+            'aside aside aside aside aside aside'
+            'footer footer footer footer footer footer';
+    }
+}
+	/*SECOND BREAK POINT === tablet */
+@media only screen and (max-width : 1100px) {
+    body {
+        background: rgb(150, 150, 212);
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header header header header header'
+            'nav nav main main main main'
+            'nav nav aside aside aside aside'
+            'nav nav footer footer footer footer';
+    }
+
+    ul li {
+        display: inline-block;
+    }
 }

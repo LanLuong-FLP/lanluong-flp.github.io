@@ -41,7 +41,7 @@ section::after {
 aside {
    float: left;
   width: 30%;
-  height: 300px;
+  height: 400px;
   background: #ccc;
   padding: 20px;
   background-image:url("https://cdn.pixabay.com/photo/2017/11/16/16/29/real-estate-2955057_960_720.jpg");
@@ -54,7 +54,7 @@ main {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px;
+  height: 400px;
   background-image:url("Real_estate.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -165,7 +165,7 @@ footer {
   .sale p{
     font-family: Arial;
        font-size: 18px;
-     text-align: center;
+     text-align: left;
      line-height: 20px;
 }
 

@@ -32,7 +32,7 @@ nav a:hover {
 * {
   box-sizing: border-box;
 }
-section::after {
+main:after {
   content: "";
   display: table;
   clear: both;
@@ -49,7 +49,7 @@ aside {
   background-size: 100% 100%;
   background-position:center;
 }
-main {
+section {
   float: right;
   padding: 20px;
   width: 70%;
@@ -60,12 +60,12 @@ main {
   background-size: 100% 100%;
   text-align: center;
 }
-main h1{
+section h2{
   font-family: Arial;
 	font-size: 40px;
     color: black;
 }
-main p{
+section p{
 	font-family: Arial;
 	font-size: 20px;
     color: black;
@@ -256,8 +256,5 @@ h1{
 @media only screen and (max-width : 600px) 
 
    
-  
-	/*SECOND BREAK POINT === tablet */
-@media only screen and (max-width : 1100px)
-  
+ 
    

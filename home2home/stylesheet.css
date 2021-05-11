@@ -228,9 +228,6 @@ footer {
   grid-template-columns: 80% 20%;
   grid-gap: 10px;
   background-color: white;
-  background-image:url("Real_estate.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   margin:20px;
 }
 .main{

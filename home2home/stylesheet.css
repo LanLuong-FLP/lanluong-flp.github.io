@@ -67,36 +67,20 @@ section h2{
 }
 section p{
 	font-family: Arial;
-	font-size: 20px;
+	font-size: 18px;
     color: black;
 }
-.search{
- padding: 10px 20px;
- width:100%;
+/* For mobile phone */
+@media (max-width: 600px) { 
+section{
+width:100%;
 }
-.search h4{
-  font-family: Arial;
-       font-size: 18px;
-  text-align: left;
-  margin-top:20px;
-  padding:1px;
-  color: red;
-}
-.search input[type=text]{
-  background-color: white;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 1px 0;
-  font-family:Arial;
-  border: 1px solid #58257b;
- 
-}
+aside{
+	display:none;
+padding:0px;}
 
-.search input[type=submit]{
-  background-color: #D2691E;
-  font-weight: bold;
 }
-	
+ /*Style for footer*/	
 footer {
   padding: 20px;
   background: #708090; }
@@ -132,6 +116,15 @@ footer {
       font-size: 18px;
 	  text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+    
+  [class*="rent"] {
+    width: 100%;
+  }
+}
+
 
 /*Style for sale page*/
 
@@ -249,8 +242,7 @@ h1{
 
 
 
-/*FIRST BREAK POINT === mobile */
-@media only screen and (max-width : 600px) 
+
 
    
  

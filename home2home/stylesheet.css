@@ -259,7 +259,29 @@ padding:0px;}
     grid-template-columns: auto;}
   .contact_form{
     width: auto;
-  }	
+  }
+	
+.sale{
+  background-color:#FFF8DC;
+  width:100%;
+  height:auto;
+  margin: 20px;
+  border: 2px solid black;
+}
+ .sale img{ 
+  
+   height:98%;
+   max-width: 100%;
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+} 
+  .sale p{
+    font-family: Arial;
+       font-size: 18px;
+     text-align: left;
+     line-height: 20px;
+}	
   }
 
 

@@ -245,7 +245,17 @@ padding:0px;}
   .rent img{
     max-width: 100%;
   }
-}
+  .grid-project{
+	  grid-template-columns: auto;
+  }
+  .main{
+  margin-left:0px;
+  
+  }
+  .aside{
+    margin-bottom: 10px;
+  }
+  }
 
 
    

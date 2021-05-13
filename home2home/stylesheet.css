@@ -224,7 +224,7 @@ h1{
 }
 
 /* For mobile phone */
-@media (max-width: 600px) { 
+@media (max-width: 700px) { 
 section{
 width:100%;
 }
@@ -234,7 +234,18 @@ padding:0px;}
 
 }
 
-
+/* For mobile phone */
+@media (max-width: 700px){
+  body{
+    color: red;
+  }
+  .grid-container{	
+  grid-template-columns: repeat(3, 1fr);
+	}
+  .rent img{
+    max-width: 100%;
+  }
+}
 
    
  

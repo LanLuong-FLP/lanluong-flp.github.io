@@ -240,13 +240,12 @@ padding:0px;}
     color: red;
   }
   .grid-container{	
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto;
 	}
   .rent img{
     max-width: 100%;
   }
 }
 
-   
- 
+
    

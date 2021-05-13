@@ -255,6 +255,11 @@ padding:0px;}
   .aside{
     margin-bottom: 10px;
   }
+.contact{
+    grid-template-columns: auto;}
+  .contact_form{
+    width: auto;
+  }	
   }
 
 

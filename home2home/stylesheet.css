@@ -232,13 +232,6 @@ aside{
 	display:none;
 padding:0px;}
 
-}
-
-/* For mobile phone */
-@media (max-width: 700px){
-  body{
-    color: red;
-  }
   .grid-container{	
   grid-template-columns: auto;
 	}

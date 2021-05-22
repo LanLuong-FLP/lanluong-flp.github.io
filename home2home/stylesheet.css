@@ -145,6 +145,30 @@ footer {
      line-height: 20px;
 }
 
+/*Style for project page*/
+.grid-project{
+  display:grid;
+  grid-template-columns: 80% 20%;
+  grid-gap: 10px;
+  background-color: white;
+  margin:20px;
+}
+.main{
+  margin-left:30px;
+  margin-top:10px;
+  background-color:#FFDEAD;
+  font-family:arial;
+  font-size:16px;
+}
+
+h1{
+  color: blue;
+  text-align:center;
+}
+.aside{
+  background-color:#ADD8E6;
+  margin-top:10px;
+}
 
 /*Style for contact page*/
 .contact{
@@ -169,7 +193,7 @@ footer {
  border: 2px solid #58257b;
  padding: 12px 20px;
  width:60%;
- background-image:url("background_color.jpg");  
+ background-color:#FFFACD;
 }
 .contact_form h4{
   font-family: Arial;
@@ -197,31 +221,6 @@ footer {
   font-weight: bold;
 }
 
-
-/*Style for project page*/
-.grid-project{
-  display:grid;
-  grid-template-columns: 80% 20%;
-  grid-gap: 10px;
-  background-color: white;
-  margin:20px;
-}
-.main{
-  margin-left:30px;
-  margin-top:10px;
-  background-color:#FFDEAD;
-  font-family:arial;
-  font-size:16px;
-}
-
-h1{
-  color: blue;
-  text-align:center;
-}
-.aside{
-  background-color:#ADD8E6;
-  margin-top:10px;
-}
 
 /* For mobile phone */
 @media (max-width: 700px) { 
